@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(219, 225, 222);
+    padding: 20;
 }
 
 main {
