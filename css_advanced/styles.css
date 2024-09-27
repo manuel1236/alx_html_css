@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 165px;
+}
+
+.logo {
+    width: 167px;
+    height: 29px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none   ;
+}
+
+
+.hero-section {
+    position: relative;
+    background: url(./images/Object.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;   
+}
+
+.span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero-section button {
+    display: flex;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 30px;
+    padding: 16px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+}   
+
+.register-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+}
+
+button {
+    color: white;
+}
+
+.Learner {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.underheader {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;    
+    margin: 50px 167px 0;
+    justify-content: space-evenly;
+    padding-bottom: 50px;  
+}
+
+.underheader .pro_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.smile {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.smile > p {
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.image2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: #C271FF;
+    padding: 108px 237px 124px 260px;
+    color: white;
+
+}
+
+.testimonial .h3 {
+    padding-top: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 33px;  
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.testimonial img {
+    width: 160px;
+    height: 160px;
+}
+
+.testimonial blockquote {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 300;
+}
+
+/* ============ Most Popular Section ============ */
+
+.most-popular {
+    padding: 87px 105px 87px 106px;
+}
+
+.most-popular-title {
+    text-align: center;
+    font-weight: 20px;
+    margin-bottom: 87px;
+    font-weight: 100;
+}
+
+.most-popular-title span {
+    font-weight: bold;
+    color: #C271FF;
+}
+
+.most-popular-cards {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+}
+
+.most-popular-cards .card-image-container {
+    width: 255px;
+    height: 154px;
+    position: relative;
+}
+
+.most-popular-cards .card-image-container .card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.most-popular-cards .card-image-container .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.most-popular-cards .card-body {
+    padding: 12px;
+}
+
+.most-popular-cards .card-body > p {
+    opacity: 0.6;
+    margin: 12px 0 16px;
+    font-size: 16px;
+}
+
+.most-popular-cards .profile {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.most-popular-cards .profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.most-popular-cards .profile > h4 {
+    color: #C271FF;
+}
+
+.most-popular-cards .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.most-popular-cards .card-body .star-ratings {
+    display: flex;
+    gap: 8px;
+    width: 15px;
+    height: 15px;
+}
+
+.most-popular-cards .card-body .star-ratings i {
+    color: lightgray;
+}
+
+.most-popular-cards .card-body .star-ratings i.filled {
+    color: #C271FF;
+}
+
+.most-popular-cards .card-footer > p {
+    color: #C271FF;
+}
+
+
+
+/* ============ Free Membership Section ============ */
+.free-membership-section {
+    padding: 70px 164px 52px;
+    background-color: #071629;
+}
+
+.free-membership-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.free-membership-content h2 {
+    color: white;
+    opacity: 0.7
+}
+
+.free-membership-content h2 span {
+    color: #C271FF;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.free-membership-smile-container {
+    display: flex;
+    margin: 60px 0 80px;
+}
+
+.free-membership-content .free-membership-smile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.free-membership-smile img {
+    width: 44px;
+    height: 35px;
+}
+
+.free-membership-smile {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    align-items: center;
+}
+
+.free-membership-smile p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.free-membership-section .register-button1 {
+    background-color: #C271FF;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    padding: 16px 18px;
+    cursor: pointer;
+}   
+
+/* =============== FAQ section ================= */
+
+.faq-section {
+    padding: 50px 271px 84px 249px;
+}
+
+.faq-section > h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.faq-cols {
+    display: flex;
+    gap: 220px;
+    margin-top: 30px;
+
+}
+
+.faq-section .faq-description {
+    font-size: 14px;
+    color: #071629;
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+/* ================== Footer =================== */
+
+footer {
+    background-color: #071629;
+    padding: 90px 240px 39px;
+}
+
+footer .footer-contents > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icons {
+    display: flex;
+    gap: 20px;
+}
+
+footer .icons > i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer .copyright-info {
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    opacity: 0.5;
+}
+
+
+
+
